@@ -1,0 +1,30 @@
+.wrapper_left{
+	width: 50%;
+	float: left;
+	img{
+		margin-top: 8rem;
+		width: 100%;
+		margin-left: 3rem;
+	}
+}
+
+.wrapper_right{
+	width: 50%;
+	float: right;
+	text-align: right;
+	#insrt{
+		font-size: 1.8rem;
+		font-family: 'Futura Std'
+	}
+	#service{
+		text-align: center;
+		font-family: 'studiobold';
+	}
+	p{
+		margin-top: 9rem;
+		font-family: 'studioregular';
+		font-size: 1.2rem;
+		line-height: 1.8rem;
+		padding: 5rem;
+	}
+}
