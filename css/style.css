@@ -30,8 +30,8 @@ nav {
   width: 100%;
   position: absolute;
   z-index: 1;
-  font-family: 'Futura Std', sans-serif;
-  letter-spacing: .15rem; }
+  font-family: 'FuturaBT-Heavy';
+  letter-spacing: .1rem; }
   nav a {
     padding: .7rem;
     text-decoration: none;
@@ -48,8 +48,8 @@ nav {
     margin-top: 19rem; }
 
 .footer {
-  font-family: 'Futura Std', sans-serif;
-  letter-spacing: .15rem;
+  font-family: 'FuturaBT-Heavy', sans-serif;
+  letter-spacing: .1rem;
   width: 100%;
   position: absolute;
   z-index: 1;
@@ -514,7 +514,7 @@ h1 {
   text-align: right; }
   .wrapper_right #insrt {
     font-size: 1.8rem;
-    font-family: "Futura Std"; }
+    font-family: 'FuturaBT-Heavy'; }
   .wrapper_right #service {
     text-align: center;
     font-family: 'studiobold'; }
