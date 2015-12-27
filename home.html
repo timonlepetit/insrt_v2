@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/style.css">
+		<title>insrt.</title>
+	</head>
+	<body>
+			<nav>
+			<a href="index.php"id="insrt">insrt.</a>
+			<a href="#" id="projects">projects</a>
+			<a href="#" id="about">about</a>
+			<a href="#" id="contact">contact</a>
+			</nav>
+			<article class="slideshow">
+				<img src="img/img_1.jpg" alt="1">
+				<img src="img/img_2.jpeg" alt="2">
+				<img src="img/img_3.jpeg" alt="3">
+				<img src="img/img_4.jpeg" alt="4">
+				<img src="img/img_1.jpg" alt="5">
+				<img src="img/img_2.jpeg" alt="6">
+				<img src="img/img_3.jpeg" alt="7">
+				<img src="img/img_4.jpeg" alt="8">
+			</article>
+		<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+		<script src='js/jquery.fullPage.js'></script>
+		<script src='js/scrollReveal.js'></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+		<script>
+			$(window).load(function() {
+				$(".se-pre-con").fadeOut("slow");;
+			});
+
+			$(window).on('hashchange', function(e){
+			history.pushState("", document.title, window.location.pathname);
+			});
+
+			window.sr = new scrollReveal();
+
+	</script>
+	</body>
+</html>

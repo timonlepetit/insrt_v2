@@ -1,0 +1,66 @@
+body{
+	font-family: sans-serif;
+	font-size: 3rem;
+	cursor: crosshair;
+}
+
+nav{
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	a{
+		display: inline-block;
+		text-decoration: none;
+		color: #000;
+		transition: all .2s ease-in-out;
+		&:hover{
+			color: #fff;
+			background-color: #000;
+			cursor: cell;
+		}
+	}
+	#insrt{
+		float: left;
+		transform: rotate(-90deg);
+		transform-origin: 50% 50% 0;
+		margin-top: 19rem;
+	}
+	#projects, #about, #contact{
+		float: right;
+		transform: rotate(90deg);
+		transform-origin: 50% 50% 0;
+		margin-top: 19rem;
+		margin-right: -3rem;
+	}
+}
+
+.slideshow{
+	img{
+	position: relative;
+	z-index: 0;
+	}
+}
+
+.slideshow {width:100%;height: 100%; max-width:1920px;max-height:962px; margin:0 auto; position:relative; overflow:hidden;}
+.slideshow img {position:absolute; top:0; left:-100%; width:100%; display:block;}
+.slideshow img:first-child {position:relative;} 
+.slideshow img:nth-of-type(1) {-webkit-animation:autoplay 48s linear infinite 0s; animation:autoplay 48s linear infinite 0s;} 
+.slideshow img:nth-of-type(2) {-webkit-animation:autoplay 48s linear infinite 6s; animation:autoplay 48s linear infinite 6s;}
+.slideshow img:nth-of-type(3) {-webkit-animation:autoplay 48s linear infinite 12s; animation:autoplay 48s linear infinite 12s;}
+.slideshow img:nth-of-type(4) {-webkit-animation:autoplay 48s linear infinite 18s; animation:autoplay 48s linear infinite 18s;}
+.slideshow img:nth-of-type(5) {-webkit-animation:autoplay 48s linear infinite 24s; animation:autoplay 48s linear infinite 24s;}
+.slideshow img:nth-of-type(6) {-webkit-animation:autoplay 48s linear infinite 30s; animation:autoplay 48s linear infinite 30s;}
+.slideshow img:nth-of-type(7) {-webkit-animation:autoplay 48s linear infinite 36s; animation:autoplay 48s linear infinite 36s;}
+.slideshow img:nth-of-type(8) {-webkit-animation:autoplay 48s linear infinite 42s; animation:autoplay 48s linear infinite 42s;}
+@keyframes autoplay {
+0% {left:-100%;}
+1%, 12.5% {left:0;}
+13.5%, 100% {left:100%;}
+}
+@-webkit-keyframes autoplay {
+0% {left:-100%;}
+1%, 12.5% {left:0;}
+13.5%, 100% {left:100%;}
+}
+
+@import 'normalize';
