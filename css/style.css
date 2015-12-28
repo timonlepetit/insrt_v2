@@ -1,5 +1,5 @@
-@import url(../fonts/stylesheet.css);
-@import url(../fonts/insrt.css);
+@import url(../fonts/studio.css);
+@import url(../fonts/averta_std.css);
 body {
   font-family: sans-serif;
   font-size: 2rem;
@@ -28,9 +28,7 @@ button:focus {
 
 nav {
   width: 100%;
-  position: absolute;
-  z-index: 1;
-  font-family: 'FuturaBT-Heavy';
+  font-family: 'averta_stdbold';
   letter-spacing: .1rem; }
   nav a {
     padding: .7rem;
@@ -42,17 +40,19 @@ nav {
       background-color: #000;
       cursor: cell; }
   nav #insrt {
+    position: absolute;
+    z-index: 100;
     float: left;
     transform: rotate(-90deg);
     transform-origin: 50% 50% 0;
     margin-top: 19rem; }
 
 .footer {
-  font-family: 'FuturaBT-Heavy', sans-serif;
+  font-family: 'averta_stdbold', sans-serif;
   letter-spacing: .1rem;
   width: 100%;
   position: absolute;
-  z-index: 1;
+  z-index: 3;
   bottom: 1.5rem; }
   .footer a {
     margin-right: 3rem;
@@ -493,34 +493,56 @@ td,
 th {
   padding: 0; }
 
-h1 {
-  font-family: 'studioregular', sans-serif;
-  letter-spacing: .5rem;
-  text-align: center;
-  padding-top: 19rem;
-  font-size: 5rem; }
-
-.wrapper_left {
-  width: 50%;
-  float: left; }
-  .wrapper_left img {
-    margin-top: 8rem;
-    width: 100%;
-    margin-left: 3rem; }
-
-.wrapper_right {
-  width: 50%;
-  float: right;
-  text-align: right; }
-  .wrapper_right #insrt {
-    font-size: 1.8rem;
-    font-family: 'FuturaBT-Heavy'; }
-  .wrapper_right #service {
+.projects_content {
+  z-index: 0;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%); }
+  .projects_content p {
     text-align: center;
-    font-family: 'studiobold'; }
-  .wrapper_right p {
-    margin-top: 9rem;
+    font-family: 'studioregular', sans-serif;
+    letter-spacing: .5rem;
+    font-size: 5rem; }
+
+.content_about {
+  position: absolute;
+  z-index: 2; }
+  .content_about .wrapper_left {
+    width: 40%;
+    float: left;
+    margin-left: 7rem;
+    margin-top: 1rem; }
+    .content_about .wrapper_left p {
+      font-family: 'studioregular';
+      width: 100%;
+      text-align: left;
+      font-size: 1.8rem; }
+      .content_about .wrapper_left p #insrt {
+        font-weight: 700;
+        font-size: 3.5rem;
+        font-family: 'averta_stdbold'; }
+  .content_about .wrapper_right {
+    z-index: 100;
+    width: 50%;
+    float: right;
+    text-align: left;
     font-family: 'studioregular';
-    font-size: 1.2rem;
-    line-height: 1.8rem;
-    padding: 5rem; }
+    margin-top: 3.5rem; }
+    .content_about .wrapper_right p {
+      margin-left: 6.5rem;
+      font-family: 'studioregular';
+      font-size: 1.2rem; }
+      .content_about .wrapper_right p #title_thib, .content_about .wrapper_right p #title_marc, .content_about .wrapper_right p #title_general {
+        font-family: 'averta_stdbold'; }
+      .content_about .wrapper_right p #service {
+        color: #004D36;
+        font-size: 2rem;
+        font-weight: 700; }
+    .content_about .wrapper_right a {
+      color: #004D36;
+      text-decoration: none; }
+      .content_about .wrapper_right a:hover {
+        color: #000;
+        text-decoration: line-through; }

@@ -54,29 +54,20 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/fonts\/insrt.css": {
+	"\/fonts\/averta_std.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/fonts\/insrt.css",
+		"inputAbbreviatedPath": "\/fonts\/averta_std.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/fonts\/stylesheet.css": {
+	"\/fonts\/studio.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/fonts\/stylesheet.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/fonts\/svg_test.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/fonts\/svg_test.html",
+		"inputAbbreviatedPath": "\/fonts\/studio.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -112,13 +103,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/insrt_cons.png": {
-		"fileType": 32768,
+	"\/img\/LOGO_about.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 65087,
-		"inputAbbreviatedPath": "\/img\/insrt_cons.png",
-		"outputAbbreviatedPath": "\/img\/insrt_cons.png",
+		"initialSize": 838243,
+		"inputAbbreviatedPath": "\/img\/LOGO_about.jpg",
+		"outputAbbreviatedPath": "\/img\/LOGO_about.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
