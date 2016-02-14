@@ -31,17 +31,17 @@ nav {
   font-family: 'averta_stdbold';
   letter-spacing: .1rem; }
   nav a {
-    padding: .7rem;
+    padding: 0 .7rem;
     text-decoration: none;
     color: #000;
     transition: all .2s ease-in-out; }
     nav a:hover {
       color: #fff;
-      background-color: #000;
+      background-color: #EA746A;
       cursor: cell; }
   nav #insrt {
     position: absolute;
-    z-index: 100;
+    z-index: 4;
     float: left;
     transform: rotate(-90deg);
     transform-origin: 50% 50% 0;
@@ -56,14 +56,14 @@ nav {
   bottom: 1.5rem; }
   .footer a {
     margin-right: 3rem;
-    padding: .7rem;
+    padding: 0 .7rem;
     float: right;
     text-decoration: none;
     color: #000;
     transition: all .15s ease-in-out; }
     .footer a:hover {
       color: #fff;
-      background-color: #000;
+      background-color: #407060;
       cursor: cell; }
 
 .slideshow img {
@@ -537,11 +537,11 @@ th {
       .content_about .wrapper_right p #title_thib, .content_about .wrapper_right p #title_marc, .content_about .wrapper_right p #title_general {
         font-family: 'averta_stdbold'; }
       .content_about .wrapper_right p #service {
-        color: #004D36;
+        color: #407060;
         font-size: 2rem;
         font-weight: 700; }
     .content_about .wrapper_right a {
-      color: #004D36;
+      color: #407060;
       text-decoration: none; }
       .content_about .wrapper_right a:hover {
         color: #000;
