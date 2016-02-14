@@ -505,6 +505,12 @@ th {
     font-family: 'studioregular', sans-serif;
     letter-spacing: .5rem;
     font-size: 5rem; }
+  .projects_content a {
+    text-decoration: none;
+    color: #004e37;
+    transition: color .2s ease; }
+    .projects_content a:hover {
+      color: #ec644a; }
 
 .content_about {
   position: absolute;

@@ -12,4 +12,12 @@
 	letter-spacing: .5rem;
 	font-size: 5rem;
 	}
+	a{
+		text-decoration: none;
+		color: $main_green;
+		transition: color .2s ease;
+		&:hover{
+			color: $saumon;
+		}
+	}
 }
