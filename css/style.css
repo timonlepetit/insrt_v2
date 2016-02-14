@@ -493,25 +493,75 @@ td,
 th {
   padding: 0; }
 
-.projects_content {
+#fullpage .section .projects_content {
   z-index: 0;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  /* bring your own prefixes */
-  transform: translate(-50%, -50%); }
-  .projects_content p {
+  /* bring your own prefixes */ }
+  #fullpage .section .projects_content p {
     text-align: center;
     font-family: 'studioregular', sans-serif;
     letter-spacing: .5rem;
     font-size: 5rem; }
-  .projects_content a {
+  #fullpage .section .projects_content a {
     text-decoration: none;
     color: #004e37;
     transition: color .2s ease; }
-    .projects_content a:hover {
+    #fullpage .section .projects_content a:hover {
       color: #ec644a; }
+  #fullpage .section .projects_content img {
+    margin: 0 auto; }
+#fullpage .section .button_wrapper {
+  text-align: center; }
+  #fullpage .section .button_wrapper button {
+    background: #fff;
+    border: none; }
+  #fullpage .section .button_wrapper .back {
+    font-family: 'studioregular', sans-serif;
+    font-size: 1rem; }
 
+.icon {
+  color: #004e37;
+  -webkit-animation-name: icon;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 2.5s;
+  /* Chrome, Safari, Opera */
+  animation-name: icon;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; }
+
+@keyframes icon {
+  from {
+    color: #004e37; }
+  to {
+    color: #ec644a; } }
+/* Chrome, Safari, Opera */
+@-webkit-keyframes icon {
+  from {
+    color: #004e37; }
+  to {
+    color: #ec644a; } }
+.back {
+  color: #ec644a;
+  -webkit-animation-name: back;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 2.5s;
+  /* Chrome, Safari, Opera */
+  animation-name: back;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; }
+
+@keyframes back {
+  from {
+    color: #ec644a; }
+  to {
+    color: #004e37; } }
+/* Chrome, Safari, Opera */
+@-webkit-keyframes back {
+  from {
+    color: #ec644a; }
+  to {
+    color: #004e37; } }
 .content_about {
   position: absolute;
   z-index: 2; }

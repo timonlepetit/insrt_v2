@@ -1,23 +1,79 @@
-.projects_content{
-	// position: absolute;
-	z-index: 0;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	/* bring your own prefixes */
-	transform: translate(-50%, -50%);
-	p{
-	text-align: center;
-	font-family: 'studioregular', sans-serif;
-	letter-spacing: .5rem;
-	font-size: 5rem;
-	}
-	a{
-		text-decoration: none;
-		color: $main_green;
-		transition: color .2s ease;
-		&:hover{
-			color: $saumon;
+#fullpage{
+	.section{
+		.projects_content{
+			// position: absolute;
+			z-index: 0;
+			// position: fixed;
+			// top: 50%;
+			// left: 50%;
+			/* bring your own prefixes */
+			// transform: translate(-50%, -50%);
+			p{
+			text-align: center;
+			font-family: 'studioregular', sans-serif;
+			letter-spacing: .5rem;
+			font-size: 5rem;
+			}
+			a{
+				text-decoration: none;
+				color: $main_green;
+				transition: color .2s ease;
+				&:hover{
+					color: $saumon;
+				}
+			}
+			img{
+				margin: 0 auto;
+			}
+		}
+		.button_wrapper{
+			text-align: center;
+			button{
+				background: #fff;
+				border: none;
+			}
+			.back{
+				font-family: 'studioregular', sans-serif;
+				font-size: 1rem;
+			}
 		}
 	}
+}
+
+.icon{
+    color: $main_green;
+    -webkit-animation-name: icon; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 2.5s; /* Chrome, Safari, Opera */
+    animation-name: icon;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes icon {
+    from {color: $main_green;}
+    to {color: $saumon;}
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes icon {
+    from {color: $main_green;}
+    to {color: $saumon;}
+}
+
+.back {
+    color: $saumon;
+    -webkit-animation-name: back; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 2.5s; /* Chrome, Safari, Opera */
+    animation-name: back;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes back {
+    from {color: $saumon;}
+    to {color: $main_green;}
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes back {
+    from {color: $saumon;}
+    to {color: $main_green;}
 }

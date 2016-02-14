@@ -2,6 +2,8 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/jquery.fullpage.min.css" />
+		<script src="https://use.fonticons.com/1dad8a8b.js"></script>
 		<title>insrt.</title>
 	</head>
 	<body>
@@ -10,10 +12,35 @@
 				<nav>
 					<a href="index.php"id="insrt">insrt.</a>
 				</nav>
-
+<!-- 
 			<div class="projects_content">
-					<!-- <p>coming soon.</p> -->
 					<p>insrt. <font style="font-weight:ligther;font-size:12rem;vertical-align:middle;">/</font><a target="_blank"href="https://www.behance.net/gallery/17040805/INSRT"> behance</a></p>
+			</div> -->
+
+			<div id="fullpage">
+				<div class="section">
+					<div class="projects_content">
+						<p>insrt. <font style="font-weight:ligther;font-size:12rem;vertical-align:middle;">/</font><a target="_blank" href="https://www.behance.net/gallery/17040805/INSRT"> behance</a></p>
+						<br>
+						<div class="button_wrapper"><button id="moveDown"><i class="icon icon-angle-down"></i></button></div>
+					</div>
+				</div>
+
+				<div class="section">
+					<div class="projects_content">
+						<p>idee deux <font style="font-weight:ligther;font-size:12rem;vertical-align:middle;">/</font><a target="_blank" href="#T"> live</a></p>
+						<br>
+						<div class="button_wrapper"><button id="moveDown"><i class="icon icon-angle-down"></i></button></div>
+					</div>
+				</div>
+
+				<div class="section">
+					<div class="projects_content">
+						<p>idee trois <font style="font-weight:ligther;font-size:12rem;vertical-align:middle;">/</font><a target="_blank" href="#T"> instagam</a></p>
+						<br>
+						<div class="button_wrapper"><button id="moveUp"><i class="icon icon-angle-up"></i></button><br><button class="back" id="moveTo1">back top</button></div>
+					</div>
+				</div>
 			</div>
 				
 			
@@ -24,10 +51,56 @@
 				<a href="projects.html" id="projects">projects.</a>
 		</div>
 		<script src='js/jquery-1.11.3.js'></script>
+		<script type="text/javascript" src="js/jquery.fullpage.min.js"></script>
 		<script>
 			$(window).load(function() {
 				$(".se-pre-con").fadeOut("slow");;
 			});
+
+			$(document).ready(function() {
+			    $('#fullpage').fullpage({
+			        //Navigation
+			        anchors:['firstPage', 'secondPage'],
+			        navigation: true,
+			        navigationPosition: 'right',
+
+			        //Scrolling
+			        touchSensitivity: 15,
+			        fitToSection: true,
+
+			        //Accessibility
+			        keyboardScrolling: true,
+			        animateAnchor: true,
+			        recordHistory: true,
+
+			        //Design
+			        controlArrows: true,
+			        verticalCentered: true,
+			        paddingTop: '3em',
+			        paddingBottom: '10px',
+			        fixedElements: '.nav, .footer',
+			        responsiveWidth: 0,
+			        responsiveHeight: 0,
+
+			        //Custom selectors
+			        sectionSelector: '.section',
+			        slideSelector: '.slide',
+			    });
+			});
+
+			$(document).on('click', '#moveDown', function(){
+			  $.fn.fullpage.moveSectionDown();
+			});
+
+			$(document).on('click', '#moveUp', function(){
+			  $.fn.fullpage.moveSectionUp();
+			});
+
+			$(document).on('click', '#moveTo1', function(){
+				$.fn.fullpage.moveTo('firstPage');
+			});
+
+
 
 			$(window).on('hashchange', function(e){
 			history.pushState("", document.title, window.location.pathname);
