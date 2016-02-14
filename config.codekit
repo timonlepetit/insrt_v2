@@ -90,6 +90,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/brand_def\/logo_web_og.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 900105,
+		"inputAbbreviatedPath": "\/img\/brand_def\/logo_web_og.jpg",
+		"outputAbbreviatedPath": "\/img\/brand_def\/logo_web_og.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/LOGO_about.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
