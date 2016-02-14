@@ -90,13 +90,46 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/brand_def\/logo_web_code.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 816670,
+		"inputAbbreviatedPath": "\/img\/brand_def\/logo_web_code.jpg",
+		"outputAbbreviatedPath": "\/img\/brand_def\/logo_web_code.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/brand_def\/logo_web_filaire.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 831637,
+		"inputAbbreviatedPath": "\/img\/brand_def\/logo_web_filaire.jpg",
+		"outputAbbreviatedPath": "\/img\/brand_def\/logo_web_filaire.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/brand_def\/logo_web_og.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 900105,
+		"initialSize": 153759,
 		"inputAbbreviatedPath": "\/img\/brand_def\/logo_web_og.jpg",
 		"outputAbbreviatedPath": "\/img\/brand_def\/logo_web_og.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/brand_def\/logo_web_rg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 223496,
+		"inputAbbreviatedPath": "\/img\/brand_def\/logo_web_rg.jpg",
+		"outputAbbreviatedPath": "\/img\/brand_def\/logo_web_rg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
