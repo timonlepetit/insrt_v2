@@ -1,79 +1,53 @@
-#fullpage{
-	.section{
-		.projects_content{
-			// position: absolute;
-			z-index: 0;
-			// position: fixed;
-			// top: 50%;
-			// left: 50%;
-			/* bring your own prefixes */
-			// transform: translate(-50%, -50%);
-			p{
-			text-align: center;
-			font-family: 'studioregular', sans-serif;
-			letter-spacing: .5rem;
-			font-size: 5rem;
-			}
-			a{
-				text-decoration: none;
-				color: $main_green;
-				transition: color .2s ease;
-				&:hover{
-					color: $saumon;
-				}
-			}
-			img{
-				margin: 0 auto;
-			}
-		}
-		.button_wrapper{
-			text-align: center;
-			button{
-				background: #fff;
-				border: none;
-			}
-			.back{
-				font-family: 'studioregular', sans-serif;
-				font-size: 1rem;
-			}
+.wrapper_projets{
+	width: 50%;
+	margin: 0 auto;
+	padding-top: 5rem;
+	.projets{
+		width: 100%;
+		position: relative;
+		z-index: 0;
+		img{
+			opacity: .6;
 		}
 	}
-}
+	a{	
+		color: $main_green;
+		font-family:'averta_stdbold';
+		font-size: 3rem;
+		letter-spacing: -.1rem;
+		text-decoration: none;
+		position: absolute;
+		z-index: 1;
+		opacity: 0;
+		transition: all .2s ease-in-out;
+		&:hover{
+		color: $main_green;
+		opacity: 1;
+		border-bottom: 4px solid $saumon;
+		}
+	}
 
-.icon{
-    color: $main_green;
-    -webkit-animation-name: icon; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 2.5s; /* Chrome, Safari, Opera */
-    animation-name: icon;
-    animation-duration: 2.5s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-@keyframes icon {
-    from {color: $main_green;}
-    to {color: $saumon;}
-}
-/* Chrome, Safari, Opera */
-@-webkit-keyframes icon {
-    from {color: $main_green;}
-    to {color: $saumon;}
-}
-
-.back {
-    color: $saumon;
-    -webkit-animation-name: back; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 2.5s; /* Chrome, Safari, Opera */
-    animation-name: back;
-    animation-duration: 2.5s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-@keyframes back {
-    from {color: $saumon;}
-    to {color: $main_green;}
-}
-/* Chrome, Safari, Opera */
-@-webkit-keyframes back {
-    from {color: $saumon;}
-    to {color: $main_green;}
+	#brand{
+		margin-left: 1%;
+		img{
+			width: 25rem;
+			opacity: .6;
+		}
+	}
+	#prj{
+		margin-top: -12%;
+		margin-left: 48%;
+		img{
+			width: 16rem;
+			opacity: .6;
+		}
+	}
+	#insrt{
+		margin-top: 0%;
+		margin-left: 4%;
+		img{
+			width: 30rem;
+			opacity: .5;
+		}
+	}
 }

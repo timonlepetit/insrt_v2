@@ -63,6 +63,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/mediaqueries.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/mediaqueries.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/projects.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -148,6 +157,28 @@
 		"initialSize": 223496,
 		"inputAbbreviatedPath": "\/img\/brand_def\/logo_web_rg.jpg",
 		"outputAbbreviatedPath": "\/img\/brand_def\/logo_web_rg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/lecerf_brand.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5.08916e+06,
+		"inputAbbreviatedPath": "\/img\/lecerf_brand.png",
+		"outputAbbreviatedPath": "\/img\/lecerf_brand.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/lecerf_prj.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.01974e+06,
+		"inputAbbreviatedPath": "\/img\/lecerf_prj.png",
+		"outputAbbreviatedPath": "\/img\/lecerf_prj.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -259,6 +290,22 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/mediaqueries.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/mediaqueries.scss",
+		"outputAbbreviatedPath": "\/css\/mediaqueries.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
 	"\/normalize.scss": {
 		"createSourceMap": 0,

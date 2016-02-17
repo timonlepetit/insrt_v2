@@ -1,0 +1,42 @@
+@media screen and (max-width: 640px) {
+  .wrapper_projets {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 5rem; }
+    .wrapper_projets .projets {
+      width: 100%;
+      position: relative;
+      z-index: 0; }
+      .wrapper_projets .projets img {
+        opacity: .8; }
+    .wrapper_projets a {
+      color: #004e37;
+      font-family: 'averta_stdbold';
+      font-size: 3rem;
+      letter-spacing: -.1rem;
+      text-decoration: none;
+      position: absolute;
+      z-index: 1;
+      opacity: 0;
+      transition: all .2s ease-in-out; }
+      .wrapper_projets a:hover {
+        color: #004e37;
+        opacity: 1;
+        border-bottom: 4px solid #ec644a; }
+    .wrapper_projets #brand {
+      margin-left: 1%; }
+      .wrapper_projets #brand img {
+        width: 25rem;
+        opacity: .6; }
+    .wrapper_projets #prj {
+      margin-top: -12%;
+      margin-left: 48%; }
+      .wrapper_projets #prj img {
+        width: 16rem;
+        opacity: .6; }
+    .wrapper_projets #insrt {
+      margin-top: 0%;
+      margin-left: 4%; }
+      .wrapper_projets #insrt img {
+        width: 30rem;
+        opacity: .5; } }
