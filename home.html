@@ -3,36 +3,27 @@
 	<head>
 		<link rel="stylesheet" href="css/style.css">
 		<title>insrt.</title>
+    	<meta name="description" content="management agency for artists and label specialized in electronics acts and producers." />
 	</head>
 	<body>
-		<div class="se-pre-con"></div>
-		<div class="wrapper">
-				<nav>
-					<a href="index.php"id="insrt">insrt.</a>
-				</nav>
-					<article class="slideshow">
-						<img src="img/brand_def/logo_web_og.jpg" alt="1">
-						<img src="img/brand_def/logo_web_rg.jpg" alt="2">
-						<img src="img/brand_def/logo_web_filaire.jpg" alt="3">
-						<img src="img/brand_def/logo_web_code.jpg" alt="4">
-						<img src="img/brand_def/logo_web_.jpg" alt="5">
-						<img src="img/brand_def/logo_web_.jpg" alt="6">
-<!-- 						<img src="img/img_3.jpeg" alt="7">
-						<img src="img/img_4.jpeg" alt="8"> -->
-					</article>
-				<div class="push"></div>
+		
+		<div class="branding">
+		<img id="logo" src="img/logo_i_1.jpg" alt="brand">
 		</div>
-		<div class="footer">
-				<a href="bankrupt.html" id="bankrupt">bankrupt.</a>
-				<a href="about.html" id="about">about.</a>
-				<a href="projects.html" id="projects">projects.</a>
+
+		<div class="container">
+		<h4>mgmt inquiries:</h4>
+		<a href="mailto:thibault@insrt.fr">thibault[at]insrt.fr</a>
+		
+		<br><br>
+
+		<h4>general:</h4>
+		<a href="mailto:social@insrt.fr">social[at]insrt.fr</a>
 		</div>
+
 		<script src='js/jquery-1.11.3.js'></script>
 		<script>
-			$(window).load(function() {
-				$(".se-pre-con").fadeOut("slow");;
-			});
-
+			
 			$(window).on('hashchange', function(e){
 			history.pushState("", document.title, window.location.pathname);
 			});
