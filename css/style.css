@@ -359,33 +359,40 @@ th {
   padding: 0; }
 
 body {
-  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  font-family: 'avertastd-bold';
   font-size: 2rem;
-  cursor: crosshair; }
+  cursor: crosshair;
+  background-color: #FFF; }
 
 .branding {
   margin-top: 3rem;
   text-align: center;
   margin-bottom: -3rem; }
   .branding #logo {
-    width: 50rem;
+    width: 25rem;
     text-align: center; }
 
 .container {
-  font-family: 'averta_stdbold';
-  font-weight: bold;
-  font-size: 1rem;
+  width: 100%;
+  font-weight: 400;
+  font-size: 2rem;
   margin: 0 auto;
-  text-align: center; }
+  text-align: center;
+  padding-top: 3rem; }
   .container h4 {
     line-height: .01rem; }
   .container a {
-    color: #004e37;
+    color: #000;
     text-decoration: none;
-    transition: 100ms all ease-in-out; }
+    transition: 170ms all ease-in-out;
+    font-style: italic; }
     .container a:hover {
-      color: #ec644a;
-      border-bottom: 3px solid #004e37; }
+      color: white;
+      font-style: normal;
+      font-size: 9.4vw;
+      text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000; }
 
 button:focus {
   outline: 0; }

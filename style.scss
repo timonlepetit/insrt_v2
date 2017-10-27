@@ -6,37 +6,68 @@ $main_green: rgb(0,78,55);
 $saumon: rgb(236,100,74);
 
 body{
-	font-family: sans-serif;
+	width: 100%;
+	height: 100%;
+	font-family: 'avertastd-bold';
 	font-size: 2rem;
 	cursor: crosshair;
+	background-color: #FFF;
 }
 
 .branding{
 	margin-top: 3rem;
 	text-align: center;
 	#logo{
-		width: 50rem;
+		width: 25rem;
 		text-align: center;
 	}
 	margin-bottom: -3rem;
 }
 
 .container{
-	font-family: 'averta_stdbold';
-	font-weight: bold;
-	font-size: 1rem;
+	width: 100%;
+	// height: 40%;
+	font-weight: 400;
+	font-size: 2rem;
 	margin: 0 auto;
 	text-align: center;
+	padding-top: 3rem;
 	h4{
 		line-height: .01rem;
 	}
 	a{
-		color: $main_green;
+		color: #000;
 		text-decoration: none;
-		transition: 100ms all ease-in-out;
+		transition: 170ms all ease-in-out;
+		font-style: italic;
 		&:hover{
-			color: $saumon;
-			border-bottom: 3px solid $main_green;
+			color: rgba(255,255,255,1);
+			font-style: normal;
+			font-size: 9.4vw;
+			text-shadow: 1px 1px 0 #000,
+		    -1px 1px 0 #000,
+		    1px -1px 0 #000,
+		    -1px -1px 0 #000,
+		    0px 1px 0 #000,
+		    0px -1px 0 #000,
+		    -1px 0px 0 #000,
+		    1px 0px 0 #000,
+		    2px 2px 0 #000,
+		    -2px 2px 0 #000,
+		    2px -2px 0 #000,
+		    -2px -2px 0 #000,
+		    0px 2px 0 #000,
+		    0px -2px 0 #000,
+		    -2px 0px 0 #000,
+		    2px 0px 0 #000,
+		    1px 2px 0 #000,
+		    -1px 2px 0 #000,
+		    1px -2px 0 #000,
+		    -1px -2px 0 #000,
+		    2px 1px 0 #000,
+		    -2px 1px 0 #000,
+		    2px -1px 0 #000,
+		    -2px -1px 0 #000;
 		}
 	}
 }

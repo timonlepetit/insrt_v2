@@ -8,25 +8,44 @@
 	<body>
 		
 		<div class="branding">
-		<img id="logo" src="img/logo_i_1.jpg" alt="brand">
+		<img id="logo" src="img/back.jpg" alt="brand">
 		</div>
 
 		<div class="container">
-		<h4>mgmt inquiries:</h4>
-		<a href="mailto:thibault@insrt.fr">thibault[at]insrt.fr</a>
-		
-		<br><br>
-
-		<h4>general:</h4>
-		<a href="mailto:social@insrt.fr">social[at]insrt.fr</a>
+			<a class="stretch" href="mailto:thibault@insrt.fr">feel free to contact me</a>
 		</div>
 
 		<script src='js/jquery-1.11.3.js'></script>
 		<script>
-			
-			$(window).on('hashchange', function(e){
-			history.pushState("", document.title, window.location.pathname);
-			});
+		$.fn.strech_text = function(){
+		var elmt          = $(this),
+		    cont_width    = elmt.width(),
+		    txt           = elmt.html(),
+		    one_line      = $('<span class="stretch_it">' + txt + '</span>'),
+		    nb_char       = elmt.text().length,
+		    spacing       = cont_width/nb_char,
+		    txt_width;
+
+		elmt.html(one_line);
+		txt_width = one_line.width();
+
+		if (txt_width < cont_width){
+		    var  char_width     = txt_width/nb_char,
+		         ltr_spacing    = spacing - char_width + (spacing - char_width)/nb_char ; 
+
+		    one_line.css({'letter-spacing': ltr_spacing});
+		} else {
+		    one_line.contents().unwrap();
+		    elmt.addClass('justify');
+		}
+		};
+
+
+		$(document).ready(function () {
+		$('.stretch').each(function(){
+		    $(this).strech_text();
+		});
+		});
 	</script>
 	</body>
 </html>
